@@ -1,0 +1,44 @@
+.pricing-table {
+	border: solid 1px #DDDDDD;
+}
+.pricing-table li {
+	border-bottom: dotted 1px #DDDDDD;
+	font-size: 0.75 rem;
+	padding: 0.875 rem 1.125 rem;
+}
+.pricing-table li:last-child {
+	border-bottom: 0;
+}
+.pricing-table .title {
+	background-color: #333333;
+	color: #EEEEEE;
+	font-size: 0.875 rem;
+	border-bottom: 0;
+}
+.pricing-table .price {
+	background-color: #F6F6F6;
+	color: #333333;
+	font-size: 1.75 rem;
+	border-bottom: 0;
+}
+.pricing-table .description {
+	color: #777777;
+	font-size: 0.625 rem;
+}
+.pricing-table .button {
+	margin: 0;
+}
+
+
+@media screen and (max-width: 39.9375em) {
+  .pagination:after {
+    display: inline-block;
+    content: attr(data-page) " of " attr(data-total);
+    position: relative;
+    text-align: center;
+    width: 80px;
+    right: 80px; }
+
+  .pagination-next {
+    position: relative;
+    left: 80px; } }
